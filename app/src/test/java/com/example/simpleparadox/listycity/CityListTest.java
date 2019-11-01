@@ -98,6 +98,6 @@ class CityListTest {
     void failTest() {
         CityList cityList = mockCityList();
 
-        assertEquals(cityList.countCities(), 0);
+        assertEquals(cityList.countCities(), 1);
     }
 }
